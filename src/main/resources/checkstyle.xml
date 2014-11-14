@@ -24,17 +24,17 @@
 		</module>
 		<module name="Regexp">
 			<property name="severity" value="warning" />
-			<property name="illegalPattern" value="true" />
 			<property name="format" value="System\.out\.println" />
+			<property name="illegalPattern" value="true" />
 		</module>
 		<module name="AvoidStaticImport">
 			<property name="severity" value="info" />
 		</module>
 		<module name="RegexpSinglelineJava">
 			<property name="severity" value="warning" />
+			<property name="format" value="\s+$" />
 			<property name="message" value="Line has trailing spaces." />
 			<property name="ignoreComments" value="true" />
-			<property name="format" value="\s+$" />
 		</module>
 		<module name="NoWhitespaceBefore">
 			<property name="severity" value="info" />
@@ -44,8 +44,8 @@
 		</module>
 		<module name="ImportOrder">
 			<property name="severity" value="info" />
-			<property name="separated" value="true" />
 			<property name="groups" value="java,javax,org,net,com,net.matrix" />
+			<property name="separated" value="true" />
 		</module>
 		<module name="IllegalInstantiation">
 			<property name="severity" value="warning" />
@@ -58,17 +58,17 @@
 		</module>
 		<module name="StaticVariableName">
 			<property name="severity" value="warning" />
+			<property name="format" value="^[a-z][a-zA-Z0-9]*$" />
 			<property name="applyToPublic" value="true" />
 			<property name="applyToProtected" value="true" />
 			<property name="applyToPackage" value="true" />
 			<property name="applyToPrivate" value="true" />
-			<property name="format" value="^[a-z][a-zA-Z0-9]*$" />
-		</module>
-		<module name="ParenPad">
-			<property name="severity" value="info" />
 		</module>
 		<module name="FinalClass">
 			<property name="severity" value="warning" />
+		</module>
+		<module name="ParenPad">
+			<property name="severity" value="info" />
 		</module>
 		<module name="MissingOverride">
 			<property name="severity" value="warning" />
@@ -76,6 +76,8 @@
 		</module>
 		<module name="AvoidStarImport">
 			<property name="severity" value="info" />
+			<property name="allowClassImports" value="false" />
+			<property name="allowStaticMemberImports" value="false" />
 		</module>
 		<module name="EmptyForIteratorPad">
 			<property name="severity" value="info" />
@@ -130,17 +132,17 @@
 		<module name="OuterTypeNumber">
 			<property name="severity" value="info" />
 		</module>
+		<module name="MagicNumber">
+			<property name="severity" value="info" />
+			<property name="ignoreHashCodeMethod" value="true" />
+			<property name="ignoreAnnotation" value="true" />
+		</module>
 		<module name="EmptyForInitializerPad">
 			<property name="severity" value="info" />
 		</module>
 		<module name="UncommentedMain">
 			<property name="severity" value="warning" />
 			<property name="excludedClasses" value="\.Main$" />
-		</module>
-		<module name="MagicNumber">
-			<property name="severity" value="info" />
-			<property name="ignoreHashCodeMethod" value="true" />
-			<property name="ignoreAnnotation" value="true" />
 		</module>
 		<module name="WriteTag">
 			<property name="severity" value="info" />
