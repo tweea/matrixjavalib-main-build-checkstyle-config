@@ -4,7 +4,7 @@
 	<module name="SuppressionCommentFilter" />
 	<module name="RegexpHeader">
 		<property name="severity" value="warning" />
-		<property name="header" value="^/\*$\n^ \* Copyright.+\$$" />
+		<property name="header" value="^/\*$\n^ \* .+$" />
 	</module>
 	<module name="JavadocPackage">
 		<property name="severity" value="info" />
