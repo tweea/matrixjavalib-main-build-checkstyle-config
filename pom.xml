@@ -13,8 +13,8 @@
 	<!-- 基本属性 - 项目关系 -->
 	<parent>
 		<groupId>net.sf.matrixjavalib</groupId>
-		<artifactId>genesis</artifactId>
-		<version>33</version>
+		<artifactId>genesis7</artifactId>
+		<version>34</version>
 	</parent>
 
 	<!-- 构建设置 -->
