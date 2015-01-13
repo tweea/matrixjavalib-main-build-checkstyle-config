@@ -10,10 +10,6 @@
 		<property name="severity" value="warning" />
 		<property name="fileExtensions" value="properties" />
 	</module>
-	<module name="JavadocPackage">
-		<property name="severity" value="info" />
-		<property name="allowLegacy" value="false" />
-	</module>
 	<module name="TreeWalker">
 		<module name="FileContentsHolder" />
 		<module name="IllegalCatch">
@@ -102,22 +98,8 @@
 		<module name="EmptyForInitializerPad">
 			<property name="severity" value="info" />
 		</module>
-		<module name="WriteTag">
-			<property name="severity" value="info" />
-		</module>
-		<module name="JavadocTagContinuationIndentation">
-			<property name="severity" value="warning" />
-			<property name="offset" value="4" />
-		</module>
-		<module name="JavadocParagraph">
-			<property name="severity" value="warning" />
-		</module>
 		<module name="OverloadMethodsDeclarationOrder">
 			<property name="severity" value="warning" />
-		</module>
-		<module name="ClassDataAbstractionCoupling">
-			<property name="severity" value="warning" />
-			<property name="max" value="15" />
 		</module>
 		<module name="RegexpSinglelineJava">
 			<property name="severity" value="warning" />
