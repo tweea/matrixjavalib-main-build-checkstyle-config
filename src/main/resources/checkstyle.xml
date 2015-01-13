@@ -52,10 +52,6 @@
 			<property name="groups" value="java,javax,org,net,com,net.matrix" />
 			<property name="separated" value="true" />
 		</module>
-		<module name="EmptyLineSeparator">
-			<property name="severity" value="warning" />
-			<property name="allowNoEmptyLineBetweenFields" value="false" />
-		</module>
 		<module name="StaticVariableName">
 			<property name="severity" value="warning" />
 			<property name="format" value="^[a-z][a-zA-Z0-9]*$" />
@@ -164,10 +160,6 @@
 		</module>
 		<module name="NoLineWrap">
 			<property name="severity" value="warning" />
-		</module>
-		<module name="NPathComplexity">
-			<property name="severity" value="warning" />
-			<property name="max" value="512" />
 		</module>
 		<module name="AvoidInlineConditionals">
 			<property name="severity" value="info" />
