@@ -5,7 +5,7 @@
 	<!-- 基本属性 - 项目属性 -->
 	<groupId>net.sf.matrixjavalib.build</groupId>
 	<artifactId>checkstyle-config</artifactId>
-	<version>1.12-SNAPSHOT</version>
+	<version>1.12</version>
 	<packaging>jar</packaging>
 
 	<!-- 基本属性 - 属性 -->
@@ -33,6 +33,6 @@
 		<connection>scm:git:https://github.com/tweea/matrixjavalib-main-build-checkstyle-config.git</connection>
 		<developerConnection>scm:git:https://github.com/tweea/matrixjavalib-main-build-checkstyle-config.git</developerConnection>
 		<url>https://github.com/tweea/matrixjavalib-main-build-checkstyle-config</url>
-		<tag>HEAD</tag>
+		<tag>checkstyle-config-1.12</tag>
 	</scm>
 </project>
