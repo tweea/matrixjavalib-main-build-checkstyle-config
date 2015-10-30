@@ -66,7 +66,7 @@
 			<property name="severity" value="warning" />
 			<property name="allowSamelineSingleParameterlessAnnotation" value="true" />
 			<property name="allowSamelineMultipleAnnotations" value="false" />
-			<property name="allowSamelineParametrizedAnnotation" value="false" />
+			<property name="allowSamelineParameterizedAnnotation" value="false" />
 		</module>
 		<module name="OuterTypeFilename">
 			<property name="severity" value="warning" />
