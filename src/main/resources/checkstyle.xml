@@ -115,9 +115,6 @@
 		<module name="NonEmptyAtclauseDescription">
 			<property name="severity" value="warning" />
 		</module>
-		<module name="InnerTypeLast">
-			<property name="severity" value="info" />
-		</module>
 		<module name="NoLineWrap">
 			<property name="severity" value="warning" />
 		</module>
