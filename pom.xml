@@ -20,8 +20,8 @@
     <!-- 构建设置 -->
 
     <!-- 项目信息 -->
-    <name>Matrix :: CheckStyle 配置</name>
-    <description>CheckStyle 配置。</description>
+    <name>Matrix :: 构建支持 :: CheckStyle 配置</name>
+    <description>CheckStyle 配置</description>
     <inceptionYear>2008</inceptionYear>
 
     <!-- 构建环境 -->
