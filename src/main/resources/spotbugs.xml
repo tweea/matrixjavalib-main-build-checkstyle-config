@@ -19,9 +19,6 @@
         <Bug pattern="ANDROID_BROADCAST" />
     </Match>
     <Match>
-        <Bug pattern="ANDROID_EXTERNAL_FILE_ACCESS" />
-    </Match>
-    <Match>
         <Bug pattern="ANDROID_GEOLOCATION" />
     </Match>
     <Match>
@@ -1013,6 +1010,18 @@
     </Match>
     <Match>
         <Bug pattern="JPAI_UNNECESSARY_TRANSACTION_EXCEPTION_HANDLING" />
+    </Match>
+    <Match>
+        <Bug pattern="JSP_INCLUDE" />
+    </Match>
+    <Match>
+        <Bug pattern="JSP_JSTL_OUT" />
+    </Match>
+    <Match>
+        <Bug pattern="JSP_SPRING_EVAL" />
+    </Match>
+    <Match>
+        <Bug pattern="JSP_XSLT" />
     </Match>
     <Match>
         <Bug pattern="JUA_DONT_ASSERT_INSTANCEOF_IN_TESTS" />
@@ -2329,6 +2338,9 @@
         <Bug pattern="UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR" />
     </Match>
     <Match>
+        <Bug pattern="USC_POTENTIAL_SECURITY_CHECK_BASED_ON_UNTRUSTED_SOURCE" />
+    </Match>
+    <Match>
         <Bug pattern="USFW_UNSYNCHRONIZED_SINGLETON_FIELD_WRITES" />
     </Match>
     <Match>
@@ -2495,6 +2507,12 @@
     </Match>
     <Match>
         <Bug pattern="XPATH_INJECTION" />
+    </Match>
+    <Match>
+        <Bug pattern="XSS_JSP_PRINT" />
+    </Match>
+    <Match>
+        <Bug pattern="XSS_REQUEST_PARAMETER_TO_JSP_WRITER" />
     </Match>
     <Match>
         <Bug pattern="XSS_REQUEST_PARAMETER_TO_SEND_ERROR" />

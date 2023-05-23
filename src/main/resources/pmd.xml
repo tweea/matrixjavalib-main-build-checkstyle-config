@@ -112,13 +112,13 @@
     <rule ref="category/java/errorprone.xml/UnusedNullCheckInEquals">
         <priority>3</priority>
     </rule>
+    <rule ref="category/java/errorprone.xml/UselessOperationOnImmutable">
+        <priority>2</priority>
+    </rule>
     <rule ref="category/java/errorprone.xml/UseLocaleWithCaseConversions">
         <priority>3</priority>
     </rule>
     <rule ref="category/java/errorprone.xml/UseProperClassLoader">
-        <priority>2</priority>
-    </rule>
-    <rule ref="category/java/errorprone.xml/UselessOperationOnImmutable">
         <priority>2</priority>
     </rule>
     <rule ref="category/java/multithreading.xml/AvoidSynchronizedAtMethodLevel">
@@ -150,12 +150,6 @@
     </rule>
     <rule ref="category/java/performance.xml/ByteInstantiation">
         <priority>3</priority>
-    </rule>
-    <rule ref="category/java/performance.xml/ConsecutiveLiteralAppends">
-        <priority>4</priority>
-        <properties>
-            <property name="threshold" value="1" />
-        </properties>
     </rule>
     <rule ref="category/java/performance.xml/InefficientEmptyStringCheck">
         <priority>3</priority>
