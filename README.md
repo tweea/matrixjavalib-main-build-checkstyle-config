@@ -1,4 +1,4 @@
 matrixjavalib-main-build-checkstyle-config
 ==========================================
 
-matrixjavalib CheckStyle 配置
+CheckStyle、PMD、SpotBugs 配置
