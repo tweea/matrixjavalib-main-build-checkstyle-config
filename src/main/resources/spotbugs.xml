@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <FindBugsFilter>
     <Match>
+        <Bug pattern="AA_ASSERTION_OF_ARGUMENTS" />
+    </Match>
+    <Match>
         <Bug pattern="ABC_ARRAY_BASED_COLLECTIONS" />
     </Match>
     <Match>
@@ -10,6 +13,9 @@
         <Bug pattern="AI_ANNOTATION_ISSUES_NEEDS_NULLABLE" />
     </Match>
     <Match>
+        <Bug pattern="AKI_SUPERFLUOUS_ROUTE_SPECIFICATION" />
+    </Match>
+    <Match>
         <Bug pattern="AM_CREATES_EMPTY_JAR_FILE_ENTRY" />
     </Match>
     <Match>
@@ -17,6 +23,9 @@
     </Match>
     <Match>
         <Bug pattern="ANDROID_BROADCAST" />
+    </Match>
+    <Match>
+        <Bug pattern="ANDROID_EXTERNAL_FILE_ACCESS" />
     </Match>
     <Match>
         <Bug pattern="ANDROID_GEOLOCATION" />
@@ -32,6 +41,12 @@
     </Match>
     <Match>
         <Bug pattern="AOM_ABSTRACT_OVERRIDDEN_METHOD" />
+    </Match>
+    <Match>
+        <Bug pattern="ASE_ASSERTION_WITH_SIDE_EFFECT" />
+    </Match>
+    <Match>
+        <Bug pattern="ASE_ASSERTION_WITH_SIDE_EFFECT_METHOD" />
     </Match>
     <Match>
         <Bug pattern="AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION" />
@@ -337,6 +352,9 @@
         <Bug pattern="DL_SYNCHRONIZATION_ON_BOXED_PRIMITIVE" />
     </Match>
     <Match>
+        <Bug pattern="DL_SYNCHRONIZATION_ON_INTERNED_STRING" />
+    </Match>
+    <Match>
         <Bug pattern="DL_SYNCHRONIZATION_ON_SHARED_CONSTANT" />
     </Match>
     <Match>
@@ -536,6 +554,9 @@
     </Match>
     <Match>
         <Bug pattern="EL_INJECTION" />
+    </Match>
+    <Match>
+        <Bug pattern="ENMI_EQUALS_ON_ENUM" />
     </Match>
     <Match>
         <Bug pattern="EOS_BAD_END_OF_STREAM_CHECK" />
@@ -1489,6 +1510,9 @@
         <Bug pattern="OI_OPTIONAL_ISSUES_CHECKING_REFERENCE" />
     </Match>
     <Match>
+        <Bug pattern="OI_OPTIONAL_ISSUES_ISPRESENT_PREFERRED" />
+    </Match>
+    <Match>
         <Bug pattern="OI_OPTIONAL_ISSUES_PRIMITIVE_VARIANT_PREFERRED" />
     </Match>
     <Match>
@@ -1525,6 +1549,9 @@
         <Bug pattern="PATH_TRAVERSAL_OUT" />
     </Match>
     <Match>
+        <Bug pattern="PA_PUBLIC_PRIMITIVE_ATTRIBUTE" />
+    </Match>
+    <Match>
         <Bug pattern="PDP_POORLY_DEFINED_PARAMETER" />
     </Match>
     <Match>
@@ -1535,6 +1562,12 @@
     </Match>
     <Match>
         <Bug pattern="PIS_POSSIBLE_INCOMPLETE_SERIALIZATION" />
+    </Match>
+    <Match>
+        <Bug pattern="PI_DO_NOT_REUSE_PUBLIC_IDENTIFIERS_CLASS_NAMES" />
+    </Match>
+    <Match>
+        <Bug pattern="PKI_SUPERFLUOUS_ROUTE_SPECIFICATION" />
     </Match>
     <Match>
         <Bug pattern="PLAY_UNVALIDATED_REDIRECT" />
@@ -1553,6 +1586,9 @@
     </Match>
     <Match>
         <Bug pattern="PME_POOR_MANS_ENUM" />
+    </Match>
+    <Match>
+        <Bug pattern="POTENTIAL_XML_INJECTION" />
     </Match>
     <Match>
         <Bug pattern="PREDICTABLE_RANDOM" />
@@ -1864,6 +1900,9 @@
         <Bug pattern="SE_NO_SUITABLE_CONSTRUCTOR_FOR_EXTERNALIZATION" />
     </Match>
     <Match>
+        <Bug pattern="SE_PREVENT_EXT_OBJ_OVERWRITE" />
+    </Match>
+    <Match>
         <Bug pattern="SE_PRIVATE_READ_RESOLVE_NOT_INHERITED" />
     </Match>
     <Match>
@@ -1951,9 +1990,6 @@
         <Bug pattern="SPP_EMPTY_CASING" />
     </Match>
     <Match>
-        <Bug pattern="SPP_EQUALS_ON_ENUM" />
-    </Match>
-    <Match>
         <Bug pattern="SPP_EQUALS_ON_STRING_BUILDER" />
     </Match>
     <Match>
@@ -1979,6 +2015,9 @@
     </Match>
     <Match>
         <Bug pattern="SPP_NULL_BEFORE_INSTANCEOF" />
+    </Match>
+    <Match>
+        <Bug pattern="SPP_PASSING_THIS_AS_PARM" />
     </Match>
     <Match>
         <Bug pattern="SPP_SERIALVER_SHOULD_BE_PRIVATE" />
@@ -2452,6 +2491,9 @@
         <Bug pattern="VR_UNRESOLVABLE_REFERENCE" />
     </Match>
     <Match>
+        <Bug pattern="VSC_VULNERABLE_SECURITY_CHECK_METHODS" />
+    </Match>
+    <Match>
         <Bug pattern="WA_AWAIT_NOT_IN_LOOP" />
     </Match>
     <Match>
@@ -2483,6 +2525,9 @@
     </Match>
     <Match>
         <Bug pattern="WI_MANUALLY_ALLOCATING_AN_AUTOWIRED_BEAN" />
+    </Match>
+    <Match>
+        <Bug pattern="WI_WIRING_OF_STATIC_FIELD" />
     </Match>
     <Match>
         <Bug pattern="WL_USING_GETCLASS_RATHER_THAN_CLASS_LITERAL" />
@@ -2534,6 +2579,12 @@
     </Match>
     <Match>
         <Bug pattern="XXE_SAXPARSER" />
+    </Match>
+    <Match>
+        <Bug pattern="XXE_SCHEMA_FACTORY" />
+    </Match>
+    <Match>
+        <Bug pattern="XXE_VALIDATOR" />
     </Match>
     <Match>
         <Bug pattern="XXE_XMLREADER" />
