@@ -20,6 +20,7 @@
         <property name="severity" value="info" />
     </module>
     <module name="TreeWalker">
+        <module name="SuppressionCommentFilter" />
         <module name="SuppressWarningsHolder" />
         <module name="AbbreviationAsWordInName">
             <property name="severity" value="info" />
@@ -98,7 +99,7 @@
             <property name="severity" value="info" />
             <property name="allowMultipleEmptyLines" value="false" />
             <property name="allowMultipleEmptyLinesInsideClassMembers" value="false" />
-            <property name="tokens" value="IMPORT,STATIC_IMPORT,CLASS_DEF,INTERFACE_DEF,ENUM_DEF,METHOD_DEF,STATIC_INIT,INSTANCE_INIT,CTOR_DEF,VARIABLE_DEF,RECORD_DEF,COMPACT_CTOR_DEF" />
+            <property name="tokens" value="IMPORT,STATIC_IMPORT,CLASS_DEF,INTERFACE_DEF,ENUM_DEF,STATIC_INIT,INSTANCE_INIT,METHOD_DEF,CTOR_DEF,VARIABLE_DEF,RECORD_DEF,COMPACT_CTOR_DEF" />
         </module>
         <module name="EmptyStatement">
             <property name="severity" value="info" />
@@ -206,18 +207,18 @@
         </module>
         <module name="LambdaParameterName">
             <property name="severity" value="info" />
-            <property name="format" value="^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$" />
+            <property name="format" value="^([a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*|_)$" />
         </module>
         <module name="LeftCurly">
             <property name="severity" value="info" />
         </module>
         <module name="LocalFinalVariableName">
             <property name="severity" value="info" />
-            <property name="format" value="^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$" />
+            <property name="format" value="^([a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*|_)$" />
         </module>
         <module name="LocalVariableName">
             <property name="severity" value="info" />
-            <property name="format" value="^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$" />
+            <property name="format" value="^([a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*|_)$" />
         </module>
         <module name="MemberName">
             <property name="severity" value="info" />
@@ -338,7 +339,7 @@
         </module>
         <module name="PatternVariableName">
             <property name="severity" value="info" />
-            <property name="format" value="^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$" />
+            <property name="format" value="^([a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*|_)$" />
         </module>
         <module name="RecordComponentName">
             <property name="severity" value="info" />
@@ -412,7 +413,6 @@
         <module name="SuperFinalize">
             <property name="severity" value="info" />
         </module>
-        <module name="SuppressionCommentFilter" />
         <module name="SuppressWarnings">
             <property name="severity" value="info" />
         </module>

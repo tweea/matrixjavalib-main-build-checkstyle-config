@@ -649,6 +649,9 @@
         <Bug pattern="FII_AVOID_CONTAINS_ON_COLLECTED_STREAM" />
     </Match>
     <Match>
+        <Bug pattern="FII_AVOID_MAP_BEFORE_LIMIT" />
+    </Match>
+    <Match>
         <Bug pattern="FII_AVOID_SIZE_ON_COLLECTED_STREAM" />
     </Match>
     <Match>
@@ -656,6 +659,9 @@
     </Match>
     <Match>
         <Bug pattern="FII_USE_ANY_MATCH" />
+    </Match>
+    <Match>
+        <Bug pattern="FII_USE_COPYCONSTRUCTOR" />
     </Match>
     <Match>
         <Bug pattern="FII_USE_FIND_FIRST" />
@@ -701,6 +707,9 @@
     </Match>
     <Match>
         <Bug pattern="FPL_FLOATING_POINT_LOOPS" />
+    </Match>
+    <Match>
+        <Bug pattern="FS_BAD_DATE_FORMAT_FLAG_COMBO" />
     </Match>
     <Match>
         <Bug pattern="GC_UNCHECKED_TYPE_IN_GENERIC_CALL" />
@@ -1139,6 +1148,9 @@
     </Match>
     <Match>
         <Bug pattern="LUI_USE_SINGLETON_LIST" />
+    </Match>
+    <Match>
+        <Bug pattern="LUI_VACUOUS_ADDALL" />
     </Match>
     <Match>
         <Bug pattern="MAC_MANUAL_ARRAY_COPY" />
@@ -1951,6 +1963,21 @@
         <Bug pattern="SIL_SQL_IN_LOOP" />
     </Match>
     <Match>
+        <Bug pattern="SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR" />
+    </Match>
+    <Match>
+        <Bug pattern="SING_SINGLETON_IMPLEMENTS_CLONE_METHOD" />
+    </Match>
+    <Match>
+        <Bug pattern="SING_SINGLETON_IMPLEMENTS_CLONEABLE" />
+    </Match>
+    <Match>
+        <Bug pattern="SING_SINGLETON_IMPLEMENTS_SERIALIZABLE" />
+    </Match>
+    <Match>
+        <Bug pattern="SING_SINGLETON_INDIRECTLY_IMPLEMENTS_CLONEABLE" />
+    </Match>
+    <Match>
         <Bug pattern="SIO_SUPERFLUOUS_INSTANCEOF" />
     </Match>
     <Match>
@@ -2377,6 +2404,21 @@
         <Bug pattern="UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR" />
     </Match>
     <Match>
+        <Bug pattern="US_USELESS_SUPPRESSION_ON_CLASS" />
+    </Match>
+    <Match>
+        <Bug pattern="US_USELESS_SUPPRESSION_ON_FIELD" />
+    </Match>
+    <Match>
+        <Bug pattern="US_USELESS_SUPPRESSION_ON_METHOD" />
+    </Match>
+    <Match>
+        <Bug pattern="US_USELESS_SUPPRESSION_ON_METHOD_PARAMETER" />
+    </Match>
+    <Match>
+        <Bug pattern="US_USELESS_SUPPRESSION_ON_PACKAGE" />
+    </Match>
+    <Match>
         <Bug pattern="USC_POTENTIAL_SECURITY_CHECK_BASED_ON_UNTRUSTED_SOURCE" />
     </Match>
     <Match>
@@ -2459,6 +2501,9 @@
     </Match>
     <Match>
         <Bug pattern="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" />
+    </Match>
+    <Match>
+        <Bug pattern="UVA_REMOVE_NULL_ARG" />
     </Match>
     <Match>
         <Bug pattern="UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR" />

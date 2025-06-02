@@ -7,9 +7,6 @@
     <rule ref="category/java/bestpractices.xml/CheckResultSet">
         <priority>3</priority>
     </rule>
-    <rule ref="category/java/bestpractices.xml/GuardLogStatement">
-        <priority>3</priority>
-    </rule>
     <rule ref="category/java/codestyle.xml/BooleanGetMethodName">
         <priority>3</priority>
         <properties>
@@ -37,9 +34,6 @@
     <rule ref="category/java/codestyle.xml/UnnecessaryFullyQualifiedName">
         <priority>3</priority>
     </rule>
-    <rule ref="category/java/codestyle.xml/UnnecessaryModifier">
-        <priority>5</priority>
-    </rule>
     <rule ref="category/java/codestyle.xml/UnnecessaryReturn">
         <priority>4</priority>
     </rule>
@@ -65,9 +59,6 @@
         <priority>3</priority>
     </rule>
     <rule ref="category/java/errorprone.xml/AvoidBranchingStatementAsLastInLoop">
-        <priority>3</priority>
-    </rule>
-    <rule ref="category/java/errorprone.xml/BadComparison">
         <priority>3</priority>
     </rule>
     <rule ref="category/java/errorprone.xml/CallSuperFirst">
@@ -139,16 +130,7 @@
     <rule ref="category/java/performance.xml/AvoidArrayLoops">
         <priority>3</priority>
     </rule>
-    <rule ref="category/java/performance.xml/AvoidUsingShortType">
-        <priority>3</priority>
-    </rule>
     <rule ref="category/java/performance.xml/BigIntegerInstantiation">
-        <priority>3</priority>
-    </rule>
-    <rule ref="category/java/performance.xml/BooleanInstantiation">
-        <priority>3</priority>
-    </rule>
-    <rule ref="category/java/performance.xml/ByteInstantiation">
         <priority>3</priority>
     </rule>
     <rule ref="category/java/performance.xml/InefficientEmptyStringCheck">
@@ -160,23 +142,11 @@
     <rule ref="category/java/performance.xml/InsufficientStringBufferDeclaration">
         <priority>3</priority>
     </rule>
-    <rule ref="category/java/performance.xml/IntegerInstantiation">
-        <priority>3</priority>
-    </rule>
-    <rule ref="category/java/performance.xml/LongInstantiation">
-        <priority>3</priority>
-    </rule>
     <rule ref="category/java/performance.xml/OptimizableToArrayCall">
         <priority>3</priority>
     </rule>
     <rule ref="category/java/performance.xml/RedundantFieldInitializer">
         <priority>3</priority>
-    </rule>
-    <rule ref="category/java/performance.xml/ShortInstantiation">
-        <priority>3</priority>
-    </rule>
-    <rule ref="category/java/performance.xml/SimplifyStartsWith">
-        <priority>4</priority>
     </rule>
     <rule ref="category/java/performance.xml/StringInstantiation">
         <priority>3</priority>
